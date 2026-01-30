@@ -1,6 +1,8 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import { HashRouter } from 'react-router-dom';
+import { createRoot } from 'react-dom/client';
+import { HashRouter } from 'react-router';
+
+const root = createRoot(document.getElementById('app'));
 import { Application, I18nModule, AboutModule } from 'asab_webui_shell';
 
 (async function init() {
@@ -39,12 +41,11 @@ import { Application, I18nModule, AboutModule } from 'asab_webui_shell';
 		}
 	};
 
-	ReactDOM.render((
+	root.render(
 		<HashRouter>
 			<Application
 				configdefaults={config}
 				modules={[I18nModule, AboutModule, TableApplicationModule]}
 			/>
-		</HashRouter>
-	), document.getElementById('app'));
+		</HashRouter>,);
 })();
