@@ -51,15 +51,15 @@ This task has 3 parts to be extended/implemented - Table, Detail and your custom
 ### Your own screen
 
 - Create your own screen.
-- The screen should use any free API data source (or you can connect it to your backend, if you dare to :))
-- Use components of your choice and design the screen as you wish (you can install any library which you are used to use)
+- The screen should use any free API data source (or you can connect it to your backend, if you dare to).
+- Use components of your choice and design the screen as you wish (you can install any library/framework which you are used to use).
 
 ### Plus points
 
-- Add translations to the Table header and Detail card
-- Use bootstrap icons for Table header and Detail card
-- Implement navigation back from Detail screen to Table screen
-- Build & deploy the application (provide the functional link)
+- Add translations to the Table header and Detail card.
+- Use bootstrap icons for Table header and Detail card.
+- Implement navigation back from Detail screen to Table screen.
+- Build & deploy the application (provide the functional link).
 
 ## The expected output
 
