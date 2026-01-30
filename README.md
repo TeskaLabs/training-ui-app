@@ -28,7 +28,7 @@ pnpm build
 
 ## The task
 
-This task has 2 parts to be extended - Table and Detail screens. The requirement is to extend the Table screen and to create a Detail screen. A plus points are for building & deploying the application that we can examine its functionality.
+This task has 3 parts to be extended/implemented - Table, Detail and your custom screens. The requirement is to extend the Table screen, create a Detail screen for Table screen and build your own custom screen. A plus points are for building & deploying the application that we can examine its functionality.
 
 ### Table screen
 
@@ -47,6 +47,12 @@ This task has 2 parts to be extended - Table and Detail screens. The requirement
 - Create a screen with a card(s) which display all the information retrieved from the `/detail/<id>` endpoint.
 - You can render the data in 1 or several cards based on your choice.
 - You can use components from [ASAB WebUI Components Library](https://github.com/TeskaLabs/asab-webui-components-lib).
+
+### Your own screen
+
+- Create your own screen.
+- The screen should use any free API data source (or you can connect it to your backend, if you dare to :))
+- Use components of your choice and design the screen as you wish (you can install any library which you are used to use)
 
 ### Plus points
 
