@@ -33,7 +33,7 @@ This task has 3 parts to be extended/implemented - Table, Detail and your custom
 ### Table screen
 
 - Extend a Table screen.
-- Use this API for obtainig the data: `https://devtest.teskalabs.com/data`
+- Use this API for obtaining the data: `https://devtest.teskalabs.com/data`
 - Create a screen with a table using components from [ASAB WebUI Components Library](https://github.com/TeskaLabs/asab-webui-components-lib). Hint: use `DataTable2` (explore the code, it will help you to understand the usage).
 - The table have to display all the `/data` content with one exception - `id` should be displayed on hover over `username`.
 - The table by default use params, therefore there should be a pagination (you need to ensure a proper request to the `/data` endpoint, `DataTable2` has pagination by default).
